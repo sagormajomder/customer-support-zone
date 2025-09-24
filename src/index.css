@@ -1,20 +1,23 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@plugin "daisyui";
 :root {
-  --font-inter: 'Inter', sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 @theme inline {
   --default-font-family: var(--font-inter), var(--font-sans);
+
+  --breakpoint-xs: 30rem;
 }
 
 @layer components {
   .heading-secondary {
-    @apply text-[#34485A] text-2xl font-semibold;
+    @apply text-2xl font-semibold text-[#34485A];
   }
   .heading-tertiary {
-    @apply text-white text-xl font-medium;
+    @apply text-xl font-medium text-white;
   }
   .heading-quaternary {
-    @apply text-[#001931] text-lg font-medium;
+    @apply text-lg font-medium text-[#001931];
   }
 }
