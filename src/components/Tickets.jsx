@@ -4,9 +4,9 @@ import progressIcon from "../assets/Icons/progress.svg";
 
 export default function Tickets({ customerTickets }) {
   return (
-    <section>
+    <section className="mb-8 sm:mb-0">
       <h2 className="heading-secondary mb-3">Customer Tickets</h2>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         {customerTickets.map((ticket) => (
           <Ticket key={ticket.id} ticket={ticket} />
         ))}
@@ -29,7 +29,7 @@ function Ticket({ ticket }) {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;
   return (
-    <div className="space-y-2.5 rounded-md bg-white p-3 shadow-lg">
+    <div className="flex flex-col justify-between space-y-2.5 rounded-md bg-white p-3 shadow-lg">
       <div className="flex justify-between">
         <h4 className="heading-quaternary">{title}</h4>
         <div
@@ -48,8 +48,8 @@ function Ticket({ ticket }) {
         </div>
       </div>
       <p>{description}</p>
-      <div className="flex justify-between text-sm">
-        <div className="flex gap-2">
+      <div className="xs:flex-row xs:items-center flex flex-col justify-between gap-1 text-sm sm:gap-0">
+        <div className="flex items-center gap-2">
           <p className="font-medium">#{id}</p>
           <p
             className={`font-medium ${
@@ -63,10 +63,12 @@ function Ticket({ ticket }) {
             {`${priority} Priority`.toUpperCase()}
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex items-center gap-2">
           <p>{customer}</p>
-          <img className="h-5" src={calendarIcon} alt="" />
-          <p>{new Date(createdAt).toLocaleDateString()}</p>
+          <div className="flex gap-0.5">
+            <img className="h-5" src={calendarIcon} alt="" />
+            <p>{new Date(createdAt).toLocaleDateString()}</p>
+          </div>
         </div>
       </div>
     </div>

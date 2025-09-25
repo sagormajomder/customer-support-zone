@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-black pt-14">
       <Container>
         {/* Footer Menu */}
-        <div className="xs:grid-cols-[repeat(auto-fit,minmax(12.5rem,1fr))] grid grid-cols-1 gap-4 border-b border-b-[#E5E7EB]/20 pb-14 text-[#A1A1AA]">
+        <div className="xs:grid-cols-[repeat(auto-fit,minmax(12.5rem,1fr))] grid grid-cols-1 gap-4 border-b border-b-[#E5E7EB]/20 pb-5 text-[#A1A1AA] lg:pb-14">
           {/* Menu 1 */}
           <div className="mb-8 space-y-4">
             <h2 className="heading-secondary text-white">CS — Ticket System</h2>

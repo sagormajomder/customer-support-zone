@@ -9,12 +9,29 @@ export default function TicketsManagement({ promisFetchTickets }) {
   const initialData = use(promisFetchTickets);
   // Set data
   const [customerTickets, setCustomerTickets] = useState(initialData);
+
+  const customerInProgressTickets = customerTickets.filter(
+    (t) => t.status.toLowerCase() === "pending",
+  );
+
+  console.log(customerInProgressTickets);
+
+  const customerResolvedTickets = customerTickets.filter(
+    (t) => t.status.toLowerCase() === "resolved",
+  );
+
   return (
     <>
-      <TicketStates customerTickets={customerTickets} />
+      <TicketStates
+        totalInProgressTickets={customerInProgressTickets.length}
+        totalResolvedTickets={customerResolvedTickets.length}
+      />
       <CustomerTickets>
         <Tickets customerTickets={customerTickets} />
-        <TaskStatus customerTickets={customerTickets} />
+        <TaskStatus
+          customerInProgressTickets={customerInProgressTickets}
+          customerResolvedTickets={customerResolvedTickets}
+        />
       </CustomerTickets>
     </>
   );
