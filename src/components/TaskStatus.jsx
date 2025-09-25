@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export default function TaskStatus({
   customerInProgressTickets,
   customerResolvedTickets,
@@ -49,6 +51,7 @@ function ProgressTask({ ticket, onTicketStatusChyange }) {
 
   function handleCompleteBtnClick() {
     onTicketStatusChyange(id, "Resolved");
+    toast.success("Ticket is resolved!");
   }
   return (
     <div className="flex flex-col space-y-1 rounded-md bg-white p-3 shadow-md">

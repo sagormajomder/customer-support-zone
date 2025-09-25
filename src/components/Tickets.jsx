@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import calendarIcon from "../assets/Icons/calendar.svg";
 import openIcon from "../assets/Icons/open.svg";
 import progressIcon from "../assets/Icons/progress.svg";
@@ -39,9 +40,11 @@ function Ticket({ ticket, onTicketStatusChyange }) {
 
   function handleTicketClick() {
     if (status === "Pending") {
+      toast.error("Already it is in progress!");
       return;
     }
     onTicketStatusChyange(id, "Pending");
+    toast.success("Ticket is in progress!");
   }
 
   return (
