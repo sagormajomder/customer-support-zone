@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 1001,
     "title": "Login issue",
     "description": "Customer unable to log into account.",
     "customer": "Alice Rahman",
@@ -9,7 +9,7 @@
     "createdAt": "2025-09-24T09:15:00Z"
   },
   {
-    "id": 2,
+    "id": 1002,
     "title": "Payment failed",
     "description": "Transaction not processed during checkout.",
     "customer": "Bashir Ahmed",
@@ -18,7 +18,7 @@
     "createdAt": "2025-09-24T10:30:00Z"
   },
   {
-    "id": 3,
+    "id": 1003,
     "title": "App crash",
     "description": "Mobile app crashes on launch.",
     "customer": "Chowdhury Nabila",
@@ -27,7 +27,7 @@
     "createdAt": "2025-09-24T11:45:00Z"
   },
   {
-    "id": 4,
+    "id": 1004,
     "title": "Refund request",
     "description": "Customer requesting refund for recent purchase.",
     "customer": "Dipto Hasan",
@@ -36,7 +36,7 @@
     "createdAt": "2025-09-23T14:20:00Z"
   },
   {
-    "id": 5,
+    "id": 1005,
     "title": "Account locked",
     "description": "Too many failed login attempts.",
     "customer": "Elita Karim",
@@ -45,7 +45,7 @@
     "createdAt": "2025-09-23T15:05:00Z"
   },
   {
-    "id": 6,
+    "id": 1006,
     "title": "Feature request",
     "description": "Customer suggests adding dark mode.",
     "customer": "Farhan Siddique",
@@ -54,7 +54,7 @@
     "createdAt": "2025-09-22T08:50:00Z"
   },
   {
-    "id": 7,
+    "id": 1007,
     "title": "Incorrect billing",
     "description": "Charged twice for the same order.",
     "customer": "Gulshan Ara",
@@ -63,7 +63,7 @@
     "createdAt": "2025-09-22T09:30:00Z"
   },
   {
-    "id": 8,
+    "id": 1008,
     "title": "Slow website",
     "description": "Pages take too long to load.",
     "customer": "Hasibul Islam",
@@ -72,7 +72,7 @@
     "createdAt": "2025-09-21T13:10:00Z"
   },
   {
-    "id": 9,
+    "id": 1009,
     "title": "Missing order",
     "description": "Order not received after 10 days.",
     "customer": "Ishrat Jahan",
@@ -81,7 +81,7 @@
     "createdAt": "2025-09-21T14:45:00Z"
   },
   {
-    "id": 10,
+    "id": 1010,
     "title": "Email not received",
     "description": "Confirmation email not sent.",
     "customer": "Javed Khan",
@@ -90,7 +90,7 @@
     "createdAt": "2025-09-20T16:00:00Z"
   },
   {
-    "id": 11,
+    "id": 1011,
     "title": "Broken link",
     "description": "Support page link returns 404 error.",
     "customer": "Kazi Tamanna",
@@ -99,7 +99,7 @@
     "createdAt": "2025-09-20T17:25:00Z"
   },
   {
-    "id": 12,
+    "id": 1012,
     "title": "Password reset",
     "description": "Unable to reset password via email.",
     "customer": "Liton Chowdhury",
@@ -108,7 +108,7 @@
     "createdAt": "2025-09-19T09:40:00Z"
   },
   {
-    "id": 13,
+    "id": 1013,
     "title": "Subscription cancellation",
     "description": "Customer wants to cancel subscription.",
     "customer": "Mim Akter",
@@ -117,7 +117,7 @@
     "createdAt": "2025-09-19T10:15:00Z"
   },
   {
-    "id": 14,
+    "id": 1014,
     "title": "UI bug",
     "description": "Dropdown menu overlaps footer.",
     "customer": "Nayeem Hossain",
@@ -126,7 +126,7 @@
     "createdAt": "2025-09-18T12:00:00Z"
   },
   {
-    "id": 15,
+    "id": 1015,
     "title": "Language issue",
     "description": "App displays wrong language settings.",
     "customer": "Oyshee Rahman",
