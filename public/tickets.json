@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "Customer unable to log into account.",
+    "customer": "Alice Rahman",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-24T09:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed",
+    "description": "Transaction not processed during checkout.",
+    "customer": "Bashir Ahmed",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-24T10:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "App crash",
+    "description": "Mobile app crashes on launch.",
+    "customer": "Chowdhury Nabila",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-24T11:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Refund request",
+    "description": "Customer requesting refund for recent purchase.",
+    "customer": "Dipto Hasan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-09-23T14:20:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Account locked",
+    "description": "Too many failed login attempts.",
+    "customer": "Elita Karim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-23T15:05:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Feature request",
+    "description": "Customer suggests adding dark mode.",
+    "customer": "Farhan Siddique",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-09-22T08:50:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Incorrect billing",
+    "description": "Charged twice for the same order.",
+    "customer": "Gulshan Ara",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-22T09:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Slow website",
+    "description": "Pages take too long to load.",
+    "customer": "Hasibul Islam",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-21T13:10:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Missing order",
+    "description": "Order not received after 10 days.",
+    "customer": "Ishrat Jahan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-21T14:45:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Email not received",
+    "description": "Confirmation email not sent.",
+    "customer": "Javed Khan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-09-20T16:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Broken link",
+    "description": "Support page link returns 404 error.",
+    "customer": "Kazi Tamanna",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-09-20T17:25:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Password reset",
+    "description": "Unable to reset password via email.",
+    "customer": "Liton Chowdhury",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-09-19T09:40:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Subscription cancellation",
+    "description": "Customer wants to cancel subscription.",
+    "customer": "Mim Akter",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-09-19T10:15:00Z"
+  },
+  {
+    "id": 14,
+    "title": "UI bug",
+    "description": "Dropdown menu overlaps footer.",
+    "customer": "Nayeem Hossain",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-18T12:00:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Language issue",
+    "description": "App displays wrong language settings.",
+    "customer": "Oyshee Rahman",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-09-18T13:30:00Z"
+  }
+]

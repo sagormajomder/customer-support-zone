@@ -6,7 +6,7 @@ import Container from "./Container";
 
 export default function Footer() {
   return (
-    <div className="bg-black pt-14">
+    <footer className="bg-black pt-14">
       <Container>
         {/* Footer Menu */}
         <div className="xs:grid-cols-[repeat(auto-fit,minmax(12.5rem,1fr))] grid grid-cols-1 gap-4 border-b border-b-[#E5E7EB]/20 pb-14 text-[#A1A1AA]">
@@ -98,11 +98,11 @@ export default function Footer() {
         </div>
         <div className="py-5">
           <p className="text-center text-[#FAFAFA]">
-            © {new Date().getFullYear()} CS — Ticket System. All rights
+            &copy; {new Date().getFullYear()} CS — Ticket System. All rights
             reserved.
           </p>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 }

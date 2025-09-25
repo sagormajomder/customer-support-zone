@@ -1,6 +1,6 @@
-export default function TicketStates() {
+export default function TicketStates({ customerTickets }) {
   return (
-    <div className="xs:grid-cols-2 grid grid-cols-1 gap-4">
+    <section className="xs:grid-cols-2 mb-14 grid grid-cols-1 gap-4">
       <div className="rounded-lg bg-linear-[125deg] from-[#632EE3] from-5% to-[#9F62F2] to-85% text-center text-white">
         <div className="space-y-2.5 rounded-lg bg-contain bg-position-[left,right] bg-no-repeat p-10 md:bg-[url(./assets/vector1.png),url(./assets/vector2.png)]">
           <p className="text-2xl">In-progress</p>
@@ -13,6 +13,6 @@ export default function TicketStates() {
           <p className="text-6xl">0</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
