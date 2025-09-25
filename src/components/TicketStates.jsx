@@ -1,5 +1,3 @@
-import vector1 from "../assets/vector1.png";
-
 export default function TicketStates() {
   return (
     <div className="xs:grid-cols-2 grid grid-cols-1 gap-4">
