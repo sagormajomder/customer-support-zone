@@ -5,7 +5,7 @@
     "description": "Customer unable to log into account.",
     "customer": "Alice Rahman",
     "priority": "High",
-    "status": "Open",
+    "status": "Pending",
     "createdAt": "2025-09-24T09:15:00Z"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Transaction not processed during checkout.",
     "customer": "Bashir Ahmed",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "2025-09-24T10:30:00Z"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Mobile app crashes on launch.",
     "customer": "Chowdhury Nabila",
     "priority": "High",
-    "status": "Open",
+    "status": "Pending",
     "createdAt": "2025-09-24T11:45:00Z"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Customer requesting refund for recent purchase.",
     "customer": "Dipto Hasan",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2025-09-23T14:20:00Z"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Too many failed login attempts.",
     "customer": "Elita Karim",
     "priority": "High",
-    "status": "Open",
+    "status": "Pending",
     "createdAt": "2025-09-23T15:05:00Z"
   },
   {
@@ -50,7 +50,7 @@
     "description": "Customer suggests adding dark mode.",
     "customer": "Farhan Siddique",
     "priority": "Low",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2025-09-22T08:50:00Z"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Order not received after 10 days.",
     "customer": "Ishrat Jahan",
     "priority": "High",
-    "status": "Open",
+    "status": "Pending",
     "createdAt": "2025-09-21T14:45:00Z"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Confirmation email not sent.",
     "customer": "Javed Khan",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2025-09-20T16:00:00Z"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Support page link returns 404 error.",
     "customer": "Kazi Tamanna",
     "priority": "Low",
-    "status": "Closed",
+    "status": "Pending",
     "createdAt": "2025-09-20T17:25:00Z"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Unable to reset password via email.",
     "customer": "Liton Chowdhury",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2025-09-19T09:40:00Z"
   },
   {
@@ -131,7 +131,7 @@
     "description": "App displays wrong language settings.",
     "customer": "Oyshee Rahman",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "Pending",
     "createdAt": "2025-09-18T13:30:00Z"
   }
 ]
