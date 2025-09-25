@@ -1,6 +1,7 @@
 export default function TaskStatus({
   customerInProgressTickets,
   customerResolvedTickets,
+  onTicketStatusChyange,
 }) {
   return (
     <aside>
@@ -10,7 +11,11 @@ export default function TaskStatus({
           <p>No progress tasks yet</p>
         ) : (
           customerInProgressTickets.map((t) => (
-            <ProgressTask key={t.id} ticket={t} />
+            <ProgressTask
+              key={t.id}
+              ticket={t}
+              onTicketStatusChyange={onTicketStatusChyange}
+            />
           ))
         )}
       </section>
@@ -39,12 +44,19 @@ export default function TaskStatus({
 //   }
 
 // Progress Task
-function ProgressTask({ ticket }) {
-  const { title } = ticket;
+function ProgressTask({ ticket, onTicketStatusChyange }) {
+  const { id, title } = ticket;
+
+  function handleCompleteBtnClick() {
+    onTicketStatusChyange(id, "Resolved");
+  }
   return (
     <div className="flex flex-col space-y-1 rounded-md bg-white p-3 shadow-md">
       <h4 className="heading-quaternary">{title}</h4>
-      <button className="rounded-md bg-[#02A53B] py-1.5 text-white">
+      <button
+        onClick={handleCompleteBtnClick}
+        className="cursor-pointer rounded-md bg-[#02A53B] py-1.5 text-white hover:bg-[#00832e]"
+      >
         Complete
       </button>
     </div>

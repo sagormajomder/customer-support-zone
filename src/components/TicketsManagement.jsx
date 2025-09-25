@@ -43,6 +43,7 @@ export default function TicketsManagement({ promisFetchTickets }) {
         <TaskStatus
           customerInProgressTickets={customerInProgressTickets}
           customerResolvedTickets={customerResolvedTickets}
+          onTicketStatusChyange={handleTicketStatusChange}
         />
       </CustomerTickets>
     </>
