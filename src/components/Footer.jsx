@@ -1,7 +1,7 @@
-import emailIcon from "../assets/icons/email.svg";
-import facebookIcon from "../assets/icons/facebook.svg";
-import linkeninIcon from "../assets/icons/linkedin.svg";
-import xIcon from "../assets/icons/x.svg";
+import emailIcon from "../assets/Icons/email.svg";
+import facebookIcon from "../assets/Icons/facebook.svg";
+import linkeninIcon from "../assets/Icons/linkedin.svg";
+import xIcon from "../assets/Icons/x.svg";
 import Container from "./Container";
 
 export default function Footer() {
