@@ -2,13 +2,17 @@ import calendarIcon from "../assets/Icons/calendar.svg";
 import openIcon from "../assets/Icons/open.svg";
 import progressIcon from "../assets/Icons/progress.svg";
 
-export default function Tickets({ customerTickets }) {
+export default function Tickets({ customerTickets, onTicketStatusChyange }) {
   return (
     <section className="mb-8 sm:mb-0">
       <h2 className="heading-secondary mb-3">Customer Tickets</h2>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         {customerTickets.map((ticket) => (
-          <Ticket key={ticket.id} ticket={ticket} />
+          <Ticket
+            key={ticket.id}
+            ticket={ticket}
+            onTicketStatusChyange={onTicketStatusChyange}
+          />
         ))}
       </div>
     </section>
@@ -25,11 +29,15 @@ export default function Tickets({ customerTickets }) {
 //     "status": "Open",
 //     "createdAt": "2025-09-24T10:30:00Z"
 //   }
-function Ticket({ ticket }) {
+function Ticket({ ticket, onTicketStatusChyange }) {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;
+
   return (
-    <div className="flex flex-col justify-between space-y-2.5 rounded-md bg-white p-3 shadow-lg">
+    <div
+      onClick={() => onTicketStatusChyange(id, "Pending")}
+      className="flex cursor-pointer flex-col justify-between space-y-2.5 rounded-md bg-white p-3 shadow-lg"
+    >
       <div className="flex justify-between">
         <h4 className="heading-quaternary">{title}</h4>
         <div

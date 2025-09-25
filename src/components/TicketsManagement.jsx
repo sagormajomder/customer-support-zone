@@ -14,11 +14,20 @@ export default function TicketsManagement({ promisFetchTickets }) {
     (t) => t.status.toLowerCase() === "pending",
   );
 
-  console.log(customerInProgressTickets);
-
   const customerResolvedTickets = customerTickets.filter(
     (t) => t.status.toLowerCase() === "resolved",
   );
+
+  function handleTicketStatusChange(id, status) {
+    setCustomerTickets((tickets) =>
+      tickets.map((t) => {
+        if (t.id === id) {
+          t.status = status;
+        }
+        return t;
+      }),
+    );
+  }
 
   return (
     <>
@@ -27,7 +36,10 @@ export default function TicketsManagement({ promisFetchTickets }) {
         totalResolvedTickets={customerResolvedTickets.length}
       />
       <CustomerTickets>
-        <Tickets customerTickets={customerTickets} />
+        <Tickets
+          customerTickets={customerTickets}
+          onTicketStatusChyange={handleTicketStatusChange}
+        />
         <TaskStatus
           customerInProgressTickets={customerInProgressTickets}
           customerResolvedTickets={customerResolvedTickets}
