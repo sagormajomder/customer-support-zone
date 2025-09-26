@@ -12,7 +12,7 @@ export default function TicketStates({
       </div>
       <div className="rounded-lg bg-linear-[90deg] from-[#54CF68] from-10% to-[#00827A] to-90% text-center text-white">
         <div className="space-y-2.5 rounded-lg bg-contain bg-position-[left,right] bg-no-repeat p-10 md:bg-[url(./assets/vector1.png),url(./assets/vector2.png)]">
-          <p className="text-2xl">Resolve</p>
+          <p className="text-2xl">Resolved</p>
           <p className="text-6xl">{totalResolvedTickets}</p>
         </div>
       </div>

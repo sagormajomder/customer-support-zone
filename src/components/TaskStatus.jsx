@@ -21,7 +21,7 @@ export default function TaskStatus({
           ))
         )}
       </section>
-      <h2 className="heading-secondary mb-3">Resolve Task</h2>
+      <h2 className="heading-secondary mb-3">Resolved Task</h2>
       <section className="space-y-2">
         {customerResolvedTickets.length === 0 ? (
           <p>No resolved tasks yet</p>
