@@ -1,9 +1,9 @@
 import { Suspense } from "react";
+import { ToastContainer } from "react-toastify";
 import CustomerTickets from "./components/CustomerTickets";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import TicketsManagement from "./components/TicketsManagement";
-import { ToastContainer } from "react-toastify";
 
 async function fetchTickets() {
   const res = await fetch("/tickets.json");
@@ -26,7 +26,6 @@ function App() {
         </Suspense>
       </Main>
       <Footer />
-      <ToastContainer />
     </div>
   );
 }
