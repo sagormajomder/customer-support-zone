@@ -35,16 +35,6 @@ export default function TaskStatus({
   );
 }
 
-// {
-//     "id": 2,
-//     "title": "Payment failed",
-//     "description": "Transaction not processed during checkout.",
-//     "customer": "Bashir Ahmed",
-//     "priority": "Medium",
-//     "status": "Open",
-//     "createdAt": "2025-09-24T10:30:00Z"
-//   }
-
 // Progress Task
 function ProgressTask({ ticket, onTicketStatusChyange }) {
   const { id, title } = ticket;

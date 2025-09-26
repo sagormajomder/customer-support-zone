@@ -1,11 +1,11 @@
-# Customer Support Zone
+<!-- # Customer Support Zone
 
 This project helps manage customer support by organizing
 issues into trackable tickets, assigning them to agents, and
 ensuring timely resolution through streamlined communication and
-status updates.
+status updates. -->
 
-## Answer the following queston
+## Answer the following question
 
 ### 1. What is JSX, and why is it used?
 

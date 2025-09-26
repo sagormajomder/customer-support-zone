@@ -25,15 +25,6 @@ export default function Tickets({ customerTickets, onTicketStatusChyange }) {
 }
 
 //Child
-// {
-//     "id": 2,
-//     "title": "Payment failed",
-//     "description": "Transaction not processed during checkout.",
-//     "customer": "Bashir Ahmed",
-//     "priority": "Medium",
-//     "status": "Open",
-//     "createdAt": "2025-09-24T10:30:00Z"
-//   }
 function Ticket({ ticket, onTicketStatusChyange }) {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;
