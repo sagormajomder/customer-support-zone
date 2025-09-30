@@ -1,11 +1,55 @@
-<!-- # Customer Support Zone
+# Customer Support Zone
 
 This project helps manage customer support by organizing
 issues into trackable tickets, assigning them to agents, and
 ensuring timely resolution through streamlined communication and
-status updates. -->
+status updates.
 
-## Answer the following question
+## Table of Contents
+
+- [Tools & Technology](#tools--technology-used)
+- [Run it Locally](#run-it-locally)
+- [Necessary Links](#necessary-links)
+- [Some Q/A](#answer-the-following-questions)
+- [Connect With Me](#connect-with-me)
+
+## Tools & Technology Used
+
+### Technology
+
+- Javascript
+- React (v19)
+- Tailwindcss (v4)
+
+### Tools
+
+- Vite (v7)
+- DaisyUI (v5)
+- react-toastify (v11)
+- Prettier
+- EsLint
+
+## Run it Locally
+
+Please follow the below instructions to run this project in your machine:
+
+1. Clone this repository
+
+   ```sh
+   git clone https://github.com/sagormajomder/customer-support-zone.git
+   ```
+
+2. Open the directory "customer-support-zone" into visual studio code
+3. Open Terminal and run `npm i` to install all dependencies
+4. Run `npm run dev` to run the project into browser
+
+The project will be available on http://localhost:5173/ by default.
+
+## Necessary Links
+
+- Design [Figma file](https://www.figma.com/design/vDDwjy5t58r4hPNBmEKY5f/Customer-Support-%E2%80%94-Ticket-System?node-id=0-1&t=kfIU1sKgK36DbdmV-1)
+
+## Answer the following questions
 
 ### 1. What is JSX, and why is it used?
 
@@ -73,3 +117,15 @@ SyntheticEvent support most DOM events like `onClick`, `onMouseEnter` etc. and u
 ```
 
 Behind the scene, it uses event delegation by attaching event listener to the root of the DOM tree which improves performance.
+
+## Connect with Me
+
+✨ Let's connect on different platforms! Feel free to reach out.
+
+🐦 **Twitter:** [@sagormajomder](https://twitter.com/sagormajomder)
+
+🐙 **GitHub:** [@sagormajomder](https://github.com/sagormajomder)
+
+📘 **Facebook:** [@sagormajomder](https://facebook.com/sagormajomder)
+
+🔗 **LinkedIn:** [@sagormajomder](https://www.linkedin.com/in/sagormajomder/)
